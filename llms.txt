@@ -10,6 +10,6 @@
 
 ## Projects / 项目
 
-- [Poise · 轻衡](https://poise.onepeak.cn/): A local-first body journal for recording changes and reviewing trends. The OnePeak portfolio lists Android, iOS, and Web.
+- [Poise · 轻衡](https://poise.onepeak.cn/en/): A local-first body journal for recording changes and reviewing trends. The OnePeak portfolio lists Android, iOS, and Web.
 - [KeyPresser](https://keypresser.onepeak.cn/index-en.html): A Windows keyboard and mouse automation tool with macro recording and playback. [中文官网](https://keypresser.onepeak.cn/)
-- [File Occupied Release · 文件占用释放](https://fileoccupiedrelease.onepeak.cn/?lang=en): A Windows utility that identifies processes using selected files and lets users close selected processes. [中文官网](https://fileoccupiedrelease.onepeak.cn/?lang=zh)
+- [File Occupied Release · 文件占用释放](https://fileoccupiedrelease.onepeak.cn/en/): A Windows utility that identifies processes using selected files and lets users close selected processes. [中文官网](https://fileoccupiedrelease.onepeak.cn/?lang=zh)
