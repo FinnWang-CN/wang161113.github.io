@@ -4,11 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f9f8f4">
-  <meta name="description" content="Finn 的个人主页，展示 Poise 身体日记、KeyPresser 按键自动化工具和更多开源项目。">
-  <meta property="og:title" content="OnePeak｜Finn 的个人主页">
-  <meta property="og:description" content="桌面工具、跨平台应用和开源项目。">
+  <meta name="description" content="独立开发者 Finn Wang 的个人主页，介绍 Poise 轻衡身体日记、KeyPresser Windows 键鼠自动化工具，以及查找文件占用进程的工具。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OnePeak">
+  <meta property="og:title" content="OnePeak | Finn Wang 的个人主页与软件作品">
+  <meta property="og:description" content="独立开发者 Finn Wang 的个人主页，介绍 Poise 轻衡身体日记、KeyPresser Windows 键鼠自动化工具，以及查找文件占用进程的工具。">
   <meta property="og:image" content="https://onepeak.cn/assets/finn-avatar.webp">
   <meta property="og:url" content="https://onepeak.cn/">
+  <meta property="og:image:alt" content="Finn Wang 的头像">
+  <meta name="twitter:card" content="summary">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:locale:alternate" content="en_US">
   <link rel="canonical" href="https://onepeak.cn/">
@@ -17,8 +22,93 @@
   <link rel="alternate" hreflang="x-default" href="https://onepeak.cn/">
   <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="stylesheet" href="site.css?v=14">
-  <script src="language.js?v=2" defer></script>
-  <title>OnePeak｜Finn 的个人主页</title>
+  <title>OnePeak | Finn Wang 的个人主页与软件作品</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://onepeak.cn/#website",
+        "url": "https://onepeak.cn/",
+        "name": "OnePeak",
+        "inLanguage": [
+          "zh-CN",
+          "en"
+        ],
+        "publisher": {
+          "@id": "https://onepeak.cn/#finn-wang"
+        }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://onepeak.cn/#page",
+        "url": "https://onepeak.cn/",
+        "name": "OnePeak | Finn Wang 的个人主页与软件作品",
+        "description": "独立开发者 Finn Wang 的个人主页，介绍 Poise 轻衡身体日记、KeyPresser Windows 键鼠自动化工具，以及查找文件占用进程的工具。",
+        "inLanguage": "zh-CN",
+        "isPartOf": {
+          "@id": "https://onepeak.cn/#website"
+        },
+        "mainEntity": {
+          "@id": "https://onepeak.cn/#finn-wang"
+        },
+        "mentions": {
+          "@id": "https://onepeak.cn/#projects"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://onepeak.cn/#finn-wang",
+        "name": "Finn Wang",
+        "alternateName": "Finn",
+        "description": "独立软件开发者",
+        "url": "https://onepeak.cn/",
+        "image": "https://onepeak.cn/assets/finn-avatar.webp",
+        "sameAs": [
+          "https://github.com/FinnWang-CN"
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://onepeak.cn/#projects",
+        "name": "精选作品",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "Poise",
+              "url": "https://poise.onepeak.cn/",
+              "description": "记录身体变化，回顾日常趋势。数据优先保存在本地。"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "KeyPresser",
+              "url": "https://keypresser.onepeak.cn/",
+              "description": "录制和自动执行重复的键盘与鼠标操作。"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "文件占用释放",
+              "url": "https://fileoccupiedrelease.onepeak.cn/?lang=zh",
+              "description": "查找正在占用文件的进程，关闭选中的程序以释放占用。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">跳至正文</a>
@@ -28,7 +118,7 @@
       <nav aria-label="主导航">
         <a href="#projects">作品</a>
         <a href="#about">关于</a>
-        <a class="language-link" href="./en/?lang=en" hreflang="en" lang="en">English</a>
+        <a class="language-link" href="./en/" hreflang="en" lang="en">English</a>
         <a class="github-nav" href="https://github.com/FinnWang-CN">GitHub <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
@@ -37,7 +127,7 @@
   <main class="wrap" id="main">
     <section class="section projects" id="projects" aria-labelledby="projects-title">
       <div class="section-label">
-        <h1 id="projects-title">精选作品</h1>
+        <h1 id="projects-title">Finn Wang 的精选作品</h1>
         <a class="quiet-link" href="https://github.com/FinnWang-CN?tab=repositories">全部开源项目 <span aria-hidden="true">↗</span></a>
       </div>
       <div class="project-list">
@@ -83,7 +173,7 @@
       <section class="footer-about" id="about" aria-labelledby="about-title">
         <h2 id="about-title">关于我</h2>
         <div class="about-copy">
-          <p>我喜欢把重复的步骤变成工具，也会把自己用得上的软件开源。你可以在 GitHub 上找到源码、版本更新和项目讨论。</p>
+          <p>我是 Finn Wang，一名独立软件开发者。我喜欢把重复的步骤变成工具，也会把自己用得上的软件开源。你可以在 GitHub 上找到源码、版本更新和项目讨论。</p>
           <a class="quiet-link" href="https://github.com/FinnWang-CN">在 GitHub 上找到我 <span aria-hidden="true">↗</span></a>
         </div>
       </section>
